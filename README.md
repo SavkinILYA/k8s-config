@@ -120,7 +120,7 @@ spec:
 ### Проверка HTTPS-доступа
 
 ```bash
-minikube tunnel  # в отдельном терминале
+minikube tunnel
 
 curl -k https://myapp.example.com \
   --resolve myapp.example.com:443:127.0.0.1
